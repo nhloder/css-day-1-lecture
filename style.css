@@ -1,18 +1,24 @@
 
-   body{
-       margin: 0;
-   }
+ @import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display:400,900&display=swap');
+ body{
+    margin: 0;
+}
    header {
         height: 80px;
         border-width: 5px;
         border-color:firebrick;
-        border-style: double
+        border-style: double;
+        padding:1rem;
+        
 }
 h1{
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Big Shoulders Display', cursive;
     font-weight: 700;
     font-size: 25;
+}
+h2{
+    font-size:1.5rem;
 }
 nav{
     background-color:darkslategray;
@@ -42,7 +48,8 @@ margin-bottom:3rem;
 }
 .article-para{
     width:60%;
-    float:left
+    float:left;
+    font-size:18;
 }
 footer{
     background-color:red;
